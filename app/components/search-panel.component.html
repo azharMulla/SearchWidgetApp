@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="panel-body">
-        <div class="row cpc-client-list-item-cont" ng-repeat="client in model.clientList | filter : model.inputSearchText">
+        <div class="row cpc-client-list-item-cont" ng-repeat="client in model.clientList | nameAndPolicyFilter : model.inputSearchText">
             <client-list-item client-info="client"></client-list-item>
         </div>
     </div>
