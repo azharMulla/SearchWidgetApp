@@ -1,0 +1,15 @@
+<div class="panel panel-default cpc-search-cont">
+    <div class="panel-heading">
+        <div class="input-group">
+            <span class="input-group-addon cpc-search-btn">
+                <span class="glyphicon glyphicon-search"></span>
+            </span>
+            <input class="form-control cpc-search-box" placeholder="SEARCH (Client Name / Policy Number)" ng-model="model.inputSearchText">
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row cpc-client-list-item-cont" ng-repeat="client in model.clientList | filter : model.inputSearchText">
+            {{client.name}}
+        </div>
+    </div>
+</div>
