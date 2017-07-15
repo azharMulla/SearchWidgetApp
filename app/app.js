@@ -11,7 +11,7 @@
     module.filter('nameAndPolicyFilter', function(){
         return function(list,searchItem){
             return list.filter(function(item){
-                return (item.name.toLowerCase().indexOf(searchItem) > -1 || item.policyNum.toLowerCase().indexOf(searchItem) > -1)
+                return (item.name.toLowerCase().indexOf(searchItem.toLowerCase()) > -1 || item.policyNum.toLowerCase().indexOf(searchItem.toLowerCase()) > -1)
             });
         }
     });

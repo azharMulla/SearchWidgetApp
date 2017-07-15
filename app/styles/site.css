@@ -1,3 +1,29 @@
+.cpc-search-cont>.panel-heading{
+    background: #44475d;
+    color: #eed;
+}
+
+.panel-body {
+    padding: 0px 15px;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #44475d;
+}
+
+.cpc-search-btn, .cpc-search-box {
+    background: transparent;
+    border: 0px;
+    color: #eed;
+}
+
+.cpc-search-box {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #ddd;
+}
+
 .cpc-client-list-item-cont {
     padding: 10px;
 }

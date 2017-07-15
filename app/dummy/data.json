@@ -2,5 +2,8 @@
   {"name": "Anna Walter", "policyNum": "001892722", "email":"anna.walter@example.com", "contactNum": "+917 172 2313"},
   {"name": "Best Tino", "policyNum": "001893827", "email":"best.tino@example.com", "contactNum": "+921 986 8376"},
   {"name": "James Andrew", "policyNum": "001892982", "email":"james.andrew@example.com", "contactNum": "+911 675 2871"},
-  {"name": "Moeen Akhtar", "policyNum": "0018927553", "email":"moeen.akhtar@example.com", "contactNum": "+998 121 5678"}
+  {"name": "Moeen Akhtar", "policyNum": "0018927553", "email":"moeen.akhtar@example.com", "contactNum": "+998 121 5678"},
+  {"name": "Paul Daniel", "policyNum": "001287312", "email":"paul.daniel@example.com", "contactNum": "+923 111 9812"},
+  {"name": "Rey Jenning", "policyNum": "001429861", "email":"rey.jenning@example.com", "contactNum": "+942 911 1192"},
+  {"name": "Ted Clover", "policyNum": "001822871", "email":"ted.c@example.com", "contactNum": "+921 178 2732"}
 ]
